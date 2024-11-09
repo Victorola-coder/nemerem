@@ -17,6 +17,7 @@
     "react-dom": "^18.3.1",
     "react-helmet-async": "^2.0.5",
     "react-router-dom": "^6.26.1",
+    "tailwindcss-motion": "^0.4.1-beta",
     "vite-plugin-sitemap": "^0.7.1"
   },
   "devDependencies": {

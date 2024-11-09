@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // add fonts families to the theme
+        clash: ["clash", "sans-serif"],
+        clashbold: ["clashBold", "sans-serif"],
       },
 
       keyframes: {
@@ -57,7 +58,7 @@ export default {
       },
       colors: {
         primary: {
-          DEFAULT: "#ED8850",
+          DEFAULT: "#DADADA",
           100: "#FFF4EE",
         },
         dark: {
