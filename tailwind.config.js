@@ -65,7 +65,7 @@ export default {
           100: "#FFF4EE",
         },
         dark: {
-          DEFAULT: "#141517",
+          DEFAULT: "#050810",
           100: "#414141",
           200: "#121212",
           300: "#676B71",
@@ -73,6 +73,9 @@ export default {
         main: {
           DEFAULT: "#595D62",
           100: "#F5F5F5",
+        },
+        secondary: {
+          DEFAULT: "#D8E710",
         },
 
         // change colors to your taste this is just templates

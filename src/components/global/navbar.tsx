@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Ninja } from "../svgs";
 
 const links: { link: string; label: string }[] = [
-  { link: "home", label: "Home" },
+  { link: "/", label: "Home" },
   { link: "about", label: "About" },
   { link: "contact", label: "Contact" },
   { link: "services", label: "Services" },
