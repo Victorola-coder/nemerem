@@ -4,8 +4,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        dm: ["DM Sans", "sans-serif"],
         clash: ["clash", "sans-serif"],
         clashbold: ["clashBold", "sans-serif"],
+        clashmed: ["clashMedium", "sans-serif"],
+        euc: ["Euclid Circular A", "sans-serif"],
       },
 
       keyframes: {

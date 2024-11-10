@@ -181,3 +181,12 @@ input[type="number"] {
 }
 
 /* ADD MORE AS IT GOES */
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spinn {
+  animation: spin 3s Linear infinite;
+}
