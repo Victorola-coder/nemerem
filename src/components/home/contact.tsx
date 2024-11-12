@@ -2,8 +2,8 @@ import { Button } from "../ui";
 
 export default function Contact() {
   return (
-    <section className="px-[100.14px] pt-[99px] pb-[130px] font-dm bg-black/30 rounded-[11.308px] flex flex-col items-center justify-center gap-[35px]">
-      <div className="flex flex-col items-center gap-[15px]">
+    <section className="relative px-[100.14px] pt-[99px] pb-[130px] font-dm bg-black/30 rounded-[11.308px] flex flex-col items-center justify-center gap-[35px]">
+      <div className="relative z-10 flex flex-col items-center gap-[15px]">
         <h2 className="text-[40px] font-bold text-white">Thank You!</h2>
         <h5 className="text-[20px] text-primary">
           For sparing some time and review my work.
