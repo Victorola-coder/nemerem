@@ -1,5 +1,5 @@
 import { SEO } from "../components/ui";
-import { Contact, Hero } from "../components/home";
+import { Contact, Hero, Projects } from "../components/home";
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <SEO title="Home" />
       <main>
         <Hero />
+        <Projects />
         <Contact />
       </main>
     </>
