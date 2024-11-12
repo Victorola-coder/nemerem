@@ -5,11 +5,13 @@ import {
   WhatsAppIcon,
   BehanceIcon,
 } from "../svgs";
+import { Capa } from "../ui";
 
 export default function Hero() {
   return (
     <section className="relative px-[100.14px] pt-[99px] pb-[130px] font-dm bg-black/30 rounded-[11.308px] flex flex-col items-center justify-center gap-[35px]">
-      <div className="flex flex-col items-center justify-center gap-2">
+      <Capa className="z-0" src="/images/hero.svg" />
+      <div className="relative z-10 flex flex-col items-center justify-center gap-2">
         <figure className="border-[6.695px] border-[#FFFFFF66] border-solid rounded-[139px] w-fit">
           <img
             alt="hero"

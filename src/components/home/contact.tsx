@@ -1,8 +1,9 @@
-import { Button } from "../ui";
+import { Button, Capa } from "../ui";
 
 export default function Contact() {
   return (
     <section className="relative px-[100.14px] pt-[99px] pb-[130px] font-dm bg-black/30 rounded-[11.308px] flex flex-col items-center justify-center gap-[35px]">
+      <Capa className="z-0" />
       <div className="relative z-10 flex flex-col items-center gap-[15px]">
         <h2 className="text-[40px] font-bold text-white">Thank You!</h2>
         <h5 className="text-[20px] text-primary">
