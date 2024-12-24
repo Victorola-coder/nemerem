@@ -1,4 +1,4 @@
-import { Button } from "../ui";
+import { Button, Image } from "../ui";
 
 export default function Projects() {
   return (
@@ -17,12 +17,14 @@ export default function Projects() {
 
 export function ProjectCard() {
   return (
-    <div className="flex flex-col">
-      <div className="w-full flex  flex-row">
-        <div className="w-full h-[200px] bg-white"></div>
-        <div className="w-full h-[200px] bg-[#161616]"></div>
+    <div className="flex flex-col h-[286.26px]">
+      <div className="w-full flex flex-row">
+        <div className="w-[50%] bg-white"></div>
+        <figure className="w-[50%]">
+          <Image src="/images/project.svg" alt="project" />
+        </figure>
       </div>
-      <div className="pl-[8px] pr-[16px] pt-[40.6px] pb-[21.7px]">
+      <div className="pl-[8px] pr-[16px] pt-[40.6px] pb-[21.7px] flex flex-col gap-[16px] items-start">
         <h4 className="text-[18px]  leading-[21.74px] text-left text-primary">
           E-tutor - Education & Online LMS
         </h4>
