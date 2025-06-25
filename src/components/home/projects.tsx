@@ -2,7 +2,7 @@ import { Button, Image } from "../ui";
 
 export default function Projects() {
   return (
-    <section className="px-[88px] pt-[82px] pb-[108px] flex flex-col gap-[63.16px] ">
+    <section className="px-[88px] py-[82px] pb-[108px] flex flex-col gap-[63.16px] ">
       <h3 className="text-[40px] text-center font-dm font-bold text-[#DADADA]">
         My Projects
       </h3>
