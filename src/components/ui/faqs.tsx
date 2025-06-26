@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { faqs } from "../data/data";
-import { P, H2 } from "./typography";
+import { faqs } from "../../data/data";
+import { P, H2 } from "../ui/typography";
 import { motion } from "framer-motion";
-import { Eyes, MinusIcon, PlusIcon } from "./svgs";
+import { Eyes, MinusIcon, PlusIcon } from "../svgs";
 
 interface Faq {
   question: string;
@@ -92,7 +92,7 @@ const Faqs = () => {
       </div>
 
       <div className="lg:cursor-pointer mt-[30px] space-y-3 lg:space-y-0 lg:flex lg:items-center lg:flex-col lg:gap-[14px] lg:mt-[60px]">
-        {faqs.map((faq, index) => (
+        {faqs.map((faq: Faq, index: number) => (
           <FaqItem
             key={index}
             faq={faq}

@@ -29,3 +29,4 @@ dist-ssr
 bun.lock
 yarn.lock
 package-lock.json
+.vercel
