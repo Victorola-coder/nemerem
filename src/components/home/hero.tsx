@@ -23,7 +23,7 @@ export default function Hero() {
 
         <div className="flex flex-col justify-center items-center gap-3 sm:gap-4 lg:gap-[11px]">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-bold text-white text-center">
-            Hello, <span className="text-primary">Hey, I'm Christian</span>
+            Hello, <span className="text-primary"> I'm Christian</span>
           </h1>
           <p className="text-center text-sm sm:text-base md:text-lg lg:text-[23px] leading-6 sm:leading-7 md:leading-8 lg:leading-[42px] text-[#FFFFFF80] max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-[786px] px-4 lg:px-0">
             Experienced UI designer skilled in achieving seamless end user
