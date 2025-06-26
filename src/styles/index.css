@@ -86,6 +86,23 @@ html {
   }
 }
 
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* 
 =====================
 SEXY ANIMATION CODE
@@ -182,11 +199,10 @@ input[type="number"] {
 
 /* ADD MORE AS IT GOES */
 
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
 .animate-spinn {
   animation: spin 3s Linear infinite;
+}
+
+.animate-slideInLeft {
+  animation: slideInLeft 0.4s ease-out forwards;
 }
