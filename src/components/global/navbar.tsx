@@ -22,7 +22,7 @@ export default function Navbar() {
         <ul className="flex items-center gap-[70px]">
           {links.map((link) => (
             <li
-              className="cursor-pointer font-clashmed font-medium text-base"
+              className="cursor-pointer font-dm font-medium text-base"
               key={link.link}
             >
               <Link to={link.link}>{link.label}</Link>
